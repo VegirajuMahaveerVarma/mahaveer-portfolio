@@ -1,17 +1,19 @@
-# Mahaveer Varma — Personal Website
+# Mahaveer Varma — Portfolio
 
-FlyRank PF-04: Personal Website Live on the FlyRank Domain.
+A simple personal portfolio website for Mahaveer Varma.
 
-## Assignment deliverables
-- Static portfolio site with positioning, selected work, LinkedIn, GitHub, CV, and booking/contact link.
-- DNS walkthrough explaining resolvers, nameservers, records, CNAME, and the HTTPS request path.
-- Ready for deployment on a free HTTPS host such as Netlify, Vercel, Cloudflare Pages, or GitHub Pages.
+## Includes
+- Short introduction
+- Selected projects
+- CV link
+- GitHub and LinkedIn links
+- Email contact
+- Responsive layout for desktop and mobile
 
-## Files
-- `index.html` — main one-page portfolio.
-- `styles.css` — responsive visual design and layout.
-- `script.js` — small smooth-scroll enhancement; the site works without it.
-- `cv.html` — CV/profile page linked from the portfolio.
-- `DNS-WALKTHROUGH.md` — assignment DNS explanation.
+## Projects
+- Skill Gap Intelligence System
+- Dam Monitoring & Alert System
+- Build-a-Agent
+- Personal Portfolio
 
-The FlyRank completion badge should be added to the site after capstone approval when the official badge asset is provided.
+Built with plain HTML and CSS for a lightweight, easy-to-maintain site.
