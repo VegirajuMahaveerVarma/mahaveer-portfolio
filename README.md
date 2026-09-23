@@ -1,19 +1,7 @@
 # Mahaveer Varma — Portfolio
 
-A simple personal portfolio website for Mahaveer Varma.
+## 🚧 Work in Progress
 
-## Includes
-- Short introduction
-- Selected projects
-- CV link
-- GitHub and LinkedIn links
-- Email contact
-- Responsive layout for desktop and mobile
+This portfolio is currently under development.
 
-## Projects
-- Skill Gap Intelligence System
-- Dam Monitoring & Alert System
-- Build-a-Agent
-- Personal Portfolio
-
-Built with plain HTML and CSS for a lightweight, easy-to-maintain site.
+More updates coming soon.
