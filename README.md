@@ -1,39 +1,36 @@
-# 🎮 Mahaveer Varma — Portfolio
+# Mahaveer Varma — Portfolio
 
-> **STATUS: WORK IN PROGRESS**
+A polished static portfolio for **Mahaveer Varma**, an AI & ML student focused on practical software, data, and intelligent systems.
 
-```text
-╔══════════════════════════════════════════════════════╗
-║                 PLAYER PROFILE                      ║
-╠══════════════════════════════════════════════════════╣
-║  PLAYER : MAHAVEER VARMA                            ║
-║  CLASS  : DEVELOPER                                 ║
-║  LEVEL  : 03                                        ║
-║  MODE   : BUILD / LEARN / EXPLORE                  ║
-║  STATUS : 🔨 WORK IN PROGRESS                       ║
-╚══════════════════════════════════════════════════════╝
-```
+## ✦ What’s inside
 
-## 🕹️ CURRENT QUEST
+- Cyber-terminal visual identity with responsive layouts
+- Project-focused portfolio section
+- Skills matrix for programming, AI/data, development, and collaboration
+- Journey / build log
+- Direct email, LinkedIn, and GitHub contact links
+- Lightweight vanilla HTML, CSS, and JavaScript — no build step required
 
-**Portfolio development has started.**
+## 🚀 Run locally
 
-The website is currently being rebuilt with a **game-inspired experience**. More features, projects, animations, achievements, and player stats will be added as development progresses.
+Clone the repository and open `index.html` in your browser, or serve the directory with any static web server.
 
-## ⚔️ QUEST LOG
+## 📁 Files
 
-- [ ] Design game-style interface
-- [ ] Build player profile
-- [ ] Add skills as abilities
-- [ ] Add projects as completed quests
-- [ ] Add experience & achievements
-- [ ] Add interactive animations
-- [ ] Launch the final portfolio
+| File | Purpose |
+| --- | --- |
+| `index.html` | Portfolio structure and content |
+| `styles.css` | Responsive visual system, animations, and components |
+| `script.js` | Scroll reveal and smooth navigation |
+| `favicon.svg` | Browser icon |
+| `og-image.svg` | Social sharing image |
 
-## 💾 SAVE POINT
+## 🔗 Connect
 
-`Coming soon...`
+- GitHub: https://github.com/VegirajuMahaveerVarma
+- LinkedIn: https://www.linkedin.com/in/mahaveer-varma-vegiraju-4988a936
+- Email: mahaveervarma.vegiraju@gmail.com
 
 ---
 
-**GAME STATUS:** `UNDER DEVELOPMENT` 🎮
+**Status:** `BUILDING IN PUBLIC` ⚡
