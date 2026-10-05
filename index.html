@@ -3,22 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#050807">
-  <meta name="description" content="Mahaveer Varma — AI & ML student building practical software, data and intelligent systems.">
+  <meta name="theme-color" content="#030604">
+  <meta name="description" content="Mahaveer Varma — AI & ML student building practical software, data products, and intelligent systems.">
   <meta property="og:title" content="Mahaveer Varma — AI & ML Developer">
-  <meta property="og:description" content="Portfolio of Mahaveer Varma: projects, skills, journey and ways to connect.">
+  <meta property="og:description" content="Projects, skills, journey, and ways to connect with Mahaveer Varma.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="og-image.svg">
   <title>Mahaveer Varma — AI & ML Developer</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="noise" aria-hidden="true"></div>
   <div class="scanlines" aria-hidden="true"></div>
+
   <header class="topbar">
-    <a class="brand" href="#home" aria-label="Mahaveer Varma home"><span class="brand-mark">MV</span><span>MAHAVEER<span class="accent">.SYS</span></span></a>
-    <nav aria-label="Main navigation">
-      <a href="#home">HOME</a><a href="#projects">PROJECTS</a><a href="#skills">SKILLS</a><a href="#journey">JOURNEY</a><a href="#contact">CONTACT</a>
+    <a class="brand" href="#home" aria-label="Mahaveer Varma home">
+      <span class="brand-mark">MV</span>
+      <span>MAHAVEER<span class="accent">.SYS</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><b>MENU</b>
+    </button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="#home">HOME</a>
+      <a class="nav-link" href="#projects">PROJECTS</a>
+      <a class="nav-link" href="#skills">SKILLS</a>
+      <a class="nav-link" href="#journey">JOURNEY</a>
+      <a class="nav-link" href="#contact">CONTACT</a>
     </nav>
     <span class="status"><i></i> AVAILABLE</span>
   </header>
@@ -26,49 +41,99 @@
   <main>
     <section id="home" class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">root@mahaverse:~$ whoami</p>
-        <p class="hero-kicker">AI &amp; ML STUDENT · SOFTWARE BUILDER</p>
-        <h1>BUILDING<br><span>INTELLIGENT</span><br>SYSTEMS.</h1>
-        <p class="lead">I’m Mahaveer Varma — an AI &amp; ML student who likes turning ideas into useful products, experiments, and clean developer experiences.</p>
-        <div class="hero-meta"><span><b>FOCUS</b> AI · ML · DATA</span><span><b>MODE</b> LEARN → BUILD → SHIP</span></div>
+        <div class="terminal-line"><span class="prompt">root@mahaverse</span>:<span class="path">~</span>$ whoami<span class="cursor">_</span></div>
+        <p class="hero-kicker">AI &amp; ML STUDENT <span>·</span> SOFTWARE BUILDER</p>
+        <h1>BUILDING<br><span>INTELLIGENT</span><br>SYSTEMS<span class="period">.</span></h1>
+        <p class="lead">I’m Mahaveer Varma — an AI &amp; ML student who turns ideas into useful products, experiments, and developer experiences.</p>
+        <div class="hero-meta">
+          <span><b>FOCUS</b> AI · ML · DATA</span>
+          <span><b>APPROACH</b> LEARN → BUILD → SHIP</span>
+        </div>
         <div class="actions">
           <a class="btn primary" href="#projects">VIEW PROJECTS <b>↓</b></a>
-          <a class="btn" href="mailto:mahaveervarma.vegiraju@gmail.com">START A CONVERSATION <b>↗</b></a>
+          <a class="btn" href="mailto:mahaveervarma.vegiraju@gmail.com">LET’S TALK <b>↗</b></a>
+        </div>
+        <div class="quick-proof" aria-label="Portfolio highlights">
+          <span><b>03</b> FEATURED BUILDS</span>
+          <span><b>04</b> CORE AREAS</span>
+          <span><b>01</b> BUILD PHILOSOPHY</span>
         </div>
       </div>
 
       <aside class="player-card panel" aria-label="Profile summary">
         <div class="card-top"><span>PROFILE // 001</span><span>ACCESS: OPEN</span></div>
-        <div class="avatar" aria-hidden="true">MV</div>
+        <div class="avatar-wrap"><div class="avatar" aria-hidden="true">MV</div><span class="avatar-ring"></span></div>
         <p class="card-label">PLAYER PROFILE</p>
         <h2>MAHAVEER VARMA</h2>
-        <p class="muted">AI &amp; ML STUDENT · BUILDER</p>
-        <div class="signal-grid"><div><small>BASE</small><strong>HYDERABAD</strong></div><div><small>STACK</small><strong>PY · JS · JAVA</strong></div></div>
+        <p class="muted center">AI &amp; ML STUDENT · BUILDER</p>
+        <div class="signal-grid">
+          <div><small>BASE</small><strong>HYDERABAD</strong></div>
+          <div><small>STACK</small><strong>PY · JS · JAVA</strong></div>
+        </div>
         <div class="xp-row"><span>BUILD ENERGY</span><span>ACTIVE</span></div>
         <div class="xp"><span></span></div>
-        <div class="stats"><div><strong>7.82</strong><small>CGPA</small></div><div><strong>03+</strong><small>YEARS</small></div><div><strong>∞</strong><small>LEARNING</small></div></div>
+        <div class="stats">
+          <div><strong>AI</strong><small>FOCUS</small></div>
+          <div><strong>03</strong><small>BUILDS</small></div>
+          <div><strong>∞</strong><small>LEARNING</small></div>
+        </div>
         <div class="class-tag">CURRENT ROLE: <b>BUILDER</b></div>
       </aside>
     </section>
 
-    <section class="ticker" aria-label="Working philosophy"><span>⌁ WORKING LOOP</span> RESEARCH • BUILD • TEST • LEARN • REPEAT <span>⚡</span></section>
+    <section class="ticker" aria-label="Working philosophy">
+      <span>⌁ WORKING LOOP</span>
+      RESEARCH <i>•</i> BUILD <i>•</i> TEST <i>•</i> LEARN <i>•</i> REPEAT
+      <span>⚡</span>
+    </section>
 
     <section id="projects" class="section">
-      <div class="section-head"><div><p class="eyebrow">/root/projects</p><h2>SELECTED BUILDS</h2></div><span class="counter">03 / FEATURED</span></div>
+      <div class="section-head">
+        <div><p class="eyebrow">/root/projects</p><h2>SELECTED BUILDS</h2></div>
+        <span class="counter">03 / FEATURED</span>
+      </div>
       <div class="quest-grid">
-        <article class="quest panel featured"><div class="quest-icon">01</div><div><span class="tag">AI / DATA</span><h3>Skill Gap Intelligence System</h3><p>Explores the gap between learner capabilities and market demand using data and machine-learning workflows.</p><div class="tags"><span>PYTHON</span><span>ML</span><span>DATA</span></div></div><span class="arrow">↗</span></article>
-        <article class="quest panel"><div class="quest-icon">02</div><div><span class="tag">MONITORING</span><h3>Dam Monitoring &amp; Alert System</h3><p>A practical monitoring concept focused on turning incoming signals into timely alerts and decisions.</p><div class="tags"><span>SOFTWARE</span><span>ALERTS</span><span>WORKFLOW</span></div></div></article>
-        <article class="quest panel"><div class="quest-icon">03</div><div><span class="tag">EXPERIMENTAL</span><h3>Build-a-Agent</h3><p>Hands-on exploration of agentic workflows, automation, and AI-powered application patterns.</p><div class="tags"><span>AI</span><span>AGENTS</span><span>AUTOMATION</span></div></div></article>
+        <article class="quest panel featured">
+          <div class="quest-index">01</div>
+          <div class="quest-body">
+            <div class="project-top"><span class="tag">AI / DATA</span><span class="project-state">◉ CONCEPT</span></div>
+            <h3>Skill Gap Intelligence System</h3>
+            <p>Explores the gap between learner capabilities and market demand using data and machine-learning workflows.</p>
+            <div class="tags"><span>PYTHON</span><span>ML</span><span>DATA</span></div>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </article>
+        <article class="quest panel">
+          <div class="quest-index">02</div>
+          <div class="quest-body">
+            <div class="project-top"><span class="tag">MONITORING</span><span class="project-state">◉ SYSTEM</span></div>
+            <h3>Dam Monitoring &amp; Alert System</h3>
+            <p>A practical monitoring concept focused on turning incoming signals into timely alerts and decisions.</p>
+            <div class="tags"><span>SOFTWARE</span><span>ALERTS</span><span>WORKFLOW</span></div>
+          </div>
+        </article>
+        <article class="quest panel">
+          <div class="quest-index">03</div>
+          <div class="quest-body">
+            <div class="project-top"><span class="tag">EXPERIMENTAL</span><span class="project-state">◉ LAB</span></div>
+            <h3>Build-a-Agent</h3>
+            <p>Hands-on exploration of agentic workflows, automation, and AI-powered application patterns.</p>
+            <div class="tags"><span>AI</span><span>AGENTS</span><span>AUTOMATION</span></div>
+          </div>
+        </article>
       </div>
     </section>
 
     <section id="skills" class="section">
-      <div class="section-head"><div><p class="eyebrow">/root/skills</p><h2>SKILL MATRIX</h2></div><span class="counter">BUILDING DEPTH</span></div>
+      <div class="section-head">
+        <div><p class="eyebrow">/root/skills</p><h2>SKILL MATRIX</h2></div>
+        <span class="counter">BUILDING DEPTH</span>
+      </div>
       <div class="ability-grid">
-        <div class="ability panel"><span class="ability-icon">⌘</span><h3>PROGRAMMING</h3><p>Python · Java · JavaScript · problem solving</p><div class="meter"><i style="width:78%"></i></div><small>CORE TOOLKIT</small></div>
-        <div class="ability panel"><span class="ability-icon">◈</span><h3>AI / DATA</h3><p>Machine Learning · datasets · graph AI · experimentation</p><div class="meter"><i style="width:72%"></i></div><small>DEEPENING</small></div>
-        <div class="ability panel"><span class="ability-icon">◇</span><h3>DEVELOPMENT</h3><p>Web · Flutter · Git · APIs · shipping workflows</p><div class="meter"><i style="width:70%"></i></div><small>DEEPENING</small></div>
-        <div class="ability panel"><span class="ability-icon">↗</span><h3>COLLABORATION</h3><p>Workshops · internships · documentation · learning in public</p><div class="meter"><i style="width:66%"></i></div><small>IN PROGRESS</small></div>
+        <div class="ability panel"><span class="ability-icon">⌘</span><h3>PROGRAMMING</h3><p>Python · Java · JavaScript · problem solving</p><div class="meter"><i style="--level:78%"></i></div><small>CORE TOOLKIT</small></div>
+        <div class="ability panel"><span class="ability-icon">◈</span><h3>AI / DATA</h3><p>Machine Learning · datasets · graph AI · experimentation</p><div class="meter"><i style="--level:72%"></i></div><small>DEEPENING</small></div>
+        <div class="ability panel"><span class="ability-icon">◇</span><h3>DEVELOPMENT</h3><p>Web · Flutter · Git · APIs · shipping workflows</p><div class="meter"><i style="--level:70%"></i></div><small>DEEPENING</small></div>
+        <div class="ability panel"><span class="ability-icon">↗</span><h3>COLLABORATION</h3><p>Workshops · internships · documentation · learning in public</p><div class="meter"><i style="--level:66%"></i></div><small>IN PROGRESS</small></div>
       </div>
     </section>
 
@@ -82,10 +147,19 @@
     </section>
 
     <section id="contact" class="comms panel">
-      <div><p class="eyebrow">/dev/comms</p><h2>LET’S BUILD<br><span>USEFUL THINGS.</span></h2><p class="muted">Open to conversations around AI, software projects, internships, collaborations, and learning opportunities.</p></div>
-      <div class="comms-links"><a href="mailto:mahaveervarma.vegiraju@gmail.com">EMAIL <span>↗</span></a><a href="https://www.linkedin.com/in/mahaveer-varma-vegiraju-4988a936" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a><a href="https://github.com/VegirajuMahaveerVarma" target="_blank" rel="noreferrer">GITHUB <span>↗</span></a></div>
+      <div>
+        <p class="eyebrow">/dev/comms</p>
+        <h2>LET’S BUILD<br><span>USEFUL THINGS.</span></h2>
+        <p class="muted">Open to conversations around AI, software projects, internships, collaborations, and learning opportunities.</p>
+      </div>
+      <div class="comms-links">
+        <a href="mailto:mahaveervarma.vegiraju@gmail.com"><span>EMAIL</span><span>↗</span></a>
+        <a href="https://www.linkedin.com/in/mahaveer-varma-vegiraju-4988a936" target="_blank" rel="noreferrer"><span>LINKEDIN</span><span>↗</span></a>
+        <a href="https://github.com/VegirajuMahaveerVarma" target="_blank" rel="noreferrer"><span>GITHUB</span><span>↗</span></a>
+      </div>
     </section>
   </main>
+
   <footer>© 2026 MAHAVEER VARMA <span>// BUILDING IN PUBLIC</span></footer>
   <script src="script.js"></script>
 </body>
