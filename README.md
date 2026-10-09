@@ -1,36 +1,39 @@
 # Mahaveer Varma — Portfolio
 
-A polished static portfolio for **Mahaveer Varma**, an AI & ML student focused on practical software, data, and intelligent systems.
+A responsive, dark-futuristic portfolio for Mahaveer Varma, an AI & ML student exploring applied AI, data, and software development.
 
-## ✦ What’s inside
+## Features
+- Modern dark interface with mint/cyan accents and custom project artwork
+- Responsive layouts for desktop, tablet, and mobile
+- About section, project cards, skill groups, journey timeline, and contact links
+- Scroll reveal animations, active navigation, and accessible mobile menu
+- Resume draft download in Markdown format
+- Lightweight HTML, CSS, and vanilla JavaScript — no build step required
+- Reduced-motion support and semantic page structure
 
-- Cyber-terminal visual identity with responsive layouts
-- Project-focused portfolio section
-- Skills matrix for programming, AI/data, development, and collaboration
-- Journey / build log
-- Direct email, LinkedIn, and GitHub contact links
-- Lightweight vanilla HTML, CSS, and JavaScript — no build step required
+## Run locally
+Clone this repository and open `index.html` in a browser, or run a static web server from the project directory.
 
-## 🚀 Run locally
-
-Clone the repository and open `index.html` in your browser, or serve the directory with any static web server.
-
-## 📁 Files
-
+## Files
 | File | Purpose |
 | --- | --- |
-| `index.html` | Portfolio structure and content |
-| `styles.css` | Responsive visual system, animations, and components |
-| `script.js` | Scroll reveal and smooth navigation |
+| `index.html` | Page structure and portfolio content |
+| `styles.css` | Theme, responsive layout, and animations |
+| `script.js` | Mobile navigation, active section, and reveal effects |
+| `resume.md` | Editable resume draft |
 | `favicon.svg` | Browser icon |
 | `og-image.svg` | Social sharing image |
 
-## 🔗 Connect
+## Customize
+- Update biography, project descriptions, skills, and dates in `index.html`.
+- Replace `resume.md` with a verified resume before using it for applications. A PDF version can be added later and linked from the download button.
+- Update social links and contact details if they change.
+- Project links currently point to the corresponding GitHub repositories.
 
+## Connect
 - GitHub: https://github.com/VegirajuMahaveerVarma
 - LinkedIn: https://www.linkedin.com/in/mahaveer-varma-vegiraju-4988a936
 - Email: mahaveervarma.vegiraju@gmail.com
 
 ---
-
-**Status:** `BUILDING IN PUBLIC` ⚡
+Built with curiosity and vanilla web technologies.
